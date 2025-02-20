@@ -69,10 +69,3 @@ The goal of this project is to recreate a minimalist shell environment that can 
 
 Feel free to fork the repository and submit pull requests if you'd like to contribute improvements or report bugs. This is an ongoing project, and contributions are welcome.
 
----
-
-## License
-
-This project is open source under the MIT License.
-
-
