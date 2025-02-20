@@ -60,7 +60,6 @@ Simply run it with: ./minishell
   - `"` (double quotes) prevent interpreting meta-characters, except for `$`.
 - **Exit Status**: Expands `$?` to the last exit status.
 - **Pipes**: Allows connecting commands or groups with pipes; output of a command is connected to the input of the next command via a pipe.
-- **Logical Operators**: Supports `&&` and `||` with parentheses for operator priorities.
 
 ### Built-ins
 - **echo**: Supports the `-n` option.
@@ -98,16 +97,4 @@ The goal of this project is to recreate a minimalist shell environment that can 
 
 - **C programming language**: The core of `minishell` is written in C, using basic system calls to handle user input and execute commands.
 - **Makefile**: For compiling and managing the build process.
-
----
-
-## How to Contribute
-
-Feel free to fork the repository and submit pull requests if you'd like to contribute improvements or report bugs. This is an ongoing project, and contributions are welcome.
-
----
-
-## License
-
-This project is open source under the MIT License.
 
