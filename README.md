@@ -2,8 +2,7 @@
 
 42 project, recoding our own little bash. A program capable of parsing a prompt and launching executables with arguments, along with a few built-in functions.
 
-![Minishell Screenshot](https://link_to_the_image_hosted_elsewhere.com)
-
+![Minishell Screenshot](screenshot.png)
 ---
 
 ## Project Specifications
