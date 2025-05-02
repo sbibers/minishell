@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   expand_path.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sbibers <sbibers@student.42amman.com>      +#+  +:+       +#+        */
+/*   By: sbibers <sbibers@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/09 17:57:08 by sbibers           #+#    #+#             */
-/*   Updated: 2025/02/19 17:57:16 by sbibers          ###   ########.fr       */
+/*   Updated: 2025/05/02 12:20:50 by sbibers          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ char	*replace_tilde(char *str, int *i, char *var)
 	path = ft_strjoin(temp, var);
 	free(temp);
 	if (!path)
-		return (handle_fail_expand_path(temp, NULL, var));
+		return (handle_fail_expand_path(NULL, NULL, var));
 	new_str = ft_strjoin(path, str + *i + 1);
 	free(path);
 	if (!new_str)
